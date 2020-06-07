@@ -1,9 +1,8 @@
-body{
     /* font-family: 'Amatic SC', cursive; */
     /* font-family: 'Architects Daughter', cursive;  */
-}
 
-                    /* about us*/
+
+/*------------------------- about us -----*/
 
 .main-content{
     background-image: url(../images/background.jpg);
@@ -11,11 +10,11 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.about-title{
+.section-title{
     padding-top: 90px;
     padding-bottom: 50px;
 }
-.about-title h2{
+.section-title h2{
     font-family: 'Amatic SC', cursive;
     position: relative;
     color:333;
@@ -23,7 +22,7 @@ body{
     text-align: center;
     margin-bottom: 50px;
 }
-.about-title h2:after{
+.section-title h2:after{
     content: '';
     position: absolute;
     bottom: -20px;
@@ -33,7 +32,8 @@ body{
     background-color: rgb(61, 61, 255);
     margin-left: -100px;
 }
-.about-title p{
+
+.section-title p{
     text-align: center;
     font-size: 20px;
     line-height: 35px;
@@ -97,7 +97,8 @@ font-size: 55px;
 font-family: 'Amatic SC', cursive;
 }
 
-                        /* Testimonial */
+/*--------------------- Testimonial ------*/
+
 .testimonial{
     background-image: url(../images/tastimonial.jpg);
     background-attachment: fixed;
@@ -134,14 +135,12 @@ font-family: 'Amatic SC', cursive;
       line-height: 80px;
       text-transform: uppercase;
       margin-top: 20px;
-    /* font-family: 'Architects Daughter', cursive;  */
 }
 
 .testimonial-caption h4{
     color: blue;
     font-size: 50px;
     font-family: 'Architects Daughter', cursive; 
-    /* font-family: 'Amatic SC', cursive; */
 }
 
 .testimonial-caption p{
@@ -149,6 +148,187 @@ font-family: 'Amatic SC', cursive;
     font-size: 26px;
     line-height: 35px;
     font-family: 'Architects Daughter', cursive; 
+}
+
+/*----------------------- Featers --------*/
+
+.featers-inner-wrapper{
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.left-feater-item{
+    position: relative;
+    padding-right: 90px;
+    margin-bottom: 65px;
+    text-align: right;
+    margin-top: 35px;
+}
+
+.left-feater-item-icon{
+    position: absolute;
+    right: 0;
+    top: -8px;
+    font-size: 35px;
+    color:blue;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+}
+
+.left-feater-item h3,
+.right-feater-item h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 21px;
+    color: #333;
+     font-family: 'Amatic SC', cursive;
+}
+
+.left-feater-item p,
+.right-feater-item p{
+    color: #333;
+    font-size: 16px;
+    line-height:21px;
+    font-family: 'Architects Daughter', cursive; 
+}
+
+.feater-wine{
+    position: sticky;
+    width: 90%;
+    top: 50px;
+}
+
+.right-feater-item{
+    position: relative;
+    padding-left: 90px;
+    margin-bottom: 65px;
+    text-align: left;
+    margin-top: 35px;
+}
+
+.right-feater-item-icon{
+    position: absolute;
+    left: 0;
+    top: -8px;
+    font-size: 40px;
+    color:blue;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+}
+
+/* ----------------- purchase-now  ------*/
+
+.purchase-now{
+    background-image: url(../images/tastimonial.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 60px 0;
+}
+
+.purchase-now p{
+    color:#fdfdfd;
+    font-size: 20px;
+}
+
+.btn-purchase-now:active,
+.btn-purchase-now:focus,
+.btn-purchase-now:visited,{
+    background-color: #129cf3;
+    border:1px solid #129cf3;
+    border-radius:5px;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* -------------------- Screens -------- */
+
+
+/* --------------------- Counter -------- */
+.counter{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.counter-owerlay{
+    padding: 80px 0;
+    background: rgba(31,31,31,.75);
+}
+
+.counter-icon{
+    color:blue;
+    font-size: 60px;
+}
+
+.counter-item h2{
+color:white;
+font-size: 35px;
+margin-top: 15px;
+margin-bottom: 1px;
+font-family: 'Amatic SC', cursive;
+}
+
+.counter-item p{
+    color: #d7dadb;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Architects Daughter', cursive; 
+}
+
+/* -------------------- Download-now -----*/
+
+.download-now img{
+    width: 50%;
+}
+
+.aviliable-on{
+    background-color: #1a1a1a;
+    margin-top: -28px;
+    position: relative;
+}
+
+.aviliable-title{
+    padding-top: 75px;
+}
+
+.aviliable-title h2{
+color:#fff;
+font-size: 30px;
+}
+
+.aviliable-title p{
+color:#858585;
+}
+
+.no-padding{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.aviliable-on-item{
+    text-align: center;
+    border-left: 1px solid #0f1217;
+    min-height: 230px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.aviliable-on-item:hover{
+    background-color: #121212;
+}
+
+.aviliable-on-item i{
+    color:123cf3;
+    text-align:center;
+    opacity: 1;
+    font-size: 40px;
+    padding-top: 90px;
 }
 
 
