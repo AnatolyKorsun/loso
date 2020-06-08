@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
+    <!-- <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Logo</a>
         <button
@@ -58,17 +58,36 @@
           </form>
         </div>
       </nav>
-    </header>
-
-<section class="main-content text-center">
-  <div class="container">
-    <h1>Hello</h1>
-    <div class="row">
-      <div class="col-md-6 col-lg-12 bgrred"></div>
-      <div class="col-md-6 col-lg-12 bgror"></div>
+    </header> -->
+<header class="header">
+  <div class="header-owerlay">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+            <div class="logo text-center"><img width="50px" height="50px" src="./images/wine.png" alt=""></div>
+          </div>        
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <div class="header-text">
+            <h1>Виготовлення вин</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, voluptates.</p>
+            <div class="header-btns">
+              <a href="#" class="btn btn-download">Download</a>
+              <a href="#" class="btn btn-tour">By tour</a>
+              <i class="fa fa-angle-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="header-img">
+            <img src="./images/wine.png" alt="wine">
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</section>
+</header>
 
 <section>
   <div class="container">
@@ -368,43 +387,105 @@
       </div>
       <div class="col-md-6">
         <div class="row text-center">
+          <div class="col-md-4 no-padding">
           <a href="#">
-            <div class="col-md-4 no-padding">
               <div class="aviliable-on-item">
-                <i class="fa fa-check"></i>
+                <i class="aviliable-icon fab fa-apple"></i>
                 <div class="aviliable-on-inner">
                   <h2>iOS</h2>
                 </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </div>
 
+          <div class="col-md-4 no-padding">
           <a href="#">
-            <div class="col-md-4 no-padding">
               <div class="aviliable-on-item">
-                <i class="fa fa-check"></i>
+                <i class="aviliable-icon fab fa-android"></i>
                 <div class="aviliable-on-inner">
                   <h2>Android</h2>
                 </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </div>
 
-          <a href="#">
-            <div class="col-md-4 no-padding">
-              <div class="aviliable-on-item">
-                <i class="fa fa-check"></i>
+          <div class="col-md-4 no-padding">
+            <a href="#">
+            <div class="aviliable-on-item">
+                <i class="aviliable-icon fab fa-windows"></i>
                 <div class="aviliable-on-inner">
                   <h2>Windows</h2>
                 </div>
               </div>
+            </a>
             </div>
-          </a>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<section class="contact-us">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-title">
+          <h2>Contact us</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima et deleniti numquam, cumque provident illum porro non nobis earum repellat dolorum temporibus perspiciatis voluptatem? Optio dignissimos consectetur harum culpa quaerat?</p>
+        </div>
+<div class="contact-us-form">
+  <div class="container">
+    <form role="form" action="#">
+      <div class="row">
+        <div class="col-md-4">
+          <input type="text" class="form-control" id="name" placeholder="Name">
+          <input type="email" class="form-control" id="email" placeholder="Email">
+          <input type="text" class="form-control" id="subject" placeholder="Subject">
+        </div>
+        <div class="col-md-8">
+          <textarea name="" class="form-control" id="message" cols="25" rows="10" placeholder="Message Text ..."></textarea>
+          <button type="button" class="btn btn-default submit-btn form-submit">Send</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="social-icons">
+          <ul>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="footer-item">
+          <p>All rights reserved &reg; 2020 <a href="#"></a></p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="scroll-top">
+          <a href="#"><i class="fa fa-angle-up"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
