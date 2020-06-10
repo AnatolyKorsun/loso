@@ -226,14 +226,14 @@
   font-family: "Architects Daughter", cursive;
 }
 
-/*----------------------- Featers --------*/
+/*----------------------- Features --------*/
 
-.featers-inner-wrapper {
+.features-inner-wrapper {
   padding-top: 30px;
   padding-bottom: 70px;
 }
 
-.left-feater-item {
+.left-features-item {
   position: relative;
   padding-right: 90px;
   margin-bottom: 65px;
@@ -241,7 +241,7 @@
   margin-top: 35px;
 }
 
-.left-feater-item-icon {
+.left-features-item-icon {
   position: absolute;
   right: 0;
   top: -8px;
@@ -252,8 +252,8 @@
   text-align: center;
 }
 
-.left-feater-item h3,
-.right-feater-item h3 {
+.left-features-item h3,
+.right-features-item h3 {
   text-transform: uppercase;
   font-size: 25px;
   margin-bottom: 21px;
@@ -261,21 +261,21 @@
   font-family: "Amatic SC", cursive;
 }
 
-.left-feater-item p,
-.right-feater-item p {
+.left-features-item p,
+.right-features-item p {
   color: #333;
   font-size: 16px;
   line-height: 21px;
   font-family: "Architects Daughter", cursive;
 }
 
-.feater-wine {
+.features-wine {
   position: sticky;
   width: 90%;
   top: 50px;
 }
 
-.right-feater-item {
+.right-features-item {
   position: relative;
   padding-left: 90px;
   margin-bottom: 65px;
@@ -283,7 +283,7 @@
   margin-top: 35px;
 }
 
-.right-feater-item-icon {
+.right-features-item-icon {
   position: absolute;
   left: 0;
   top: -8px;
