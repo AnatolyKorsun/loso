@@ -1,6 +1,9 @@
 /* font-family: 'Amatic SC', cursive; */
 /* font-family: 'Architects Daughter', cursive;  */
 
+a{
+  color:black;
+}
 /* ------------------------ Header -------------------- */
 .header {
   background-image: url(../images/background.jpg);
@@ -77,7 +80,15 @@
   background-color: #123cf3;
   transition: all 1s;
 }
+.navbar{
+  background-color: rgba(211, 206, 206, 0.45);
+}
+.navbar-default >.active>a{
+  color:#123cf3;
+  font-size: 17px;
+/* color: #123cf3 !important; */
 
+}
 /*------------------------- about us ------------------*/
 
 .main-content {

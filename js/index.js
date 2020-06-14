@@ -16,8 +16,12 @@ $(document).ready(function () {
   });
 });
 
+// Smooth scrolling
 
-$('.nav-item').click(function(event) {
+$('a[href*="#"]')
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
     if (
       location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
       && 
@@ -29,7 +33,7 @@ $('.nav-item').click(function(event) {
         event.preventDefault();
         $('html, body').animate({
           scrollTop: target.offset().top
-        }, 1000, function() {
+        }, 1300, function() {
           var $target = $(target);
           $target.focus();
           if ($target.is(":focus")) { 
@@ -42,3 +46,28 @@ $('.nav-item').click(function(event) {
       }
     }
   });
+
+  // Active menu item on click
+
+  $(document).ready(function(){
+    'use strict'
+    $('.navbar-nav li a').click(function(){
+    'use strict'
+    $('.navbar-nav li a').parent().removeClass("active");
+      $(this).parent().addClass("active");
+  })
+})
+
+
+// Highlight menu-item on scroll
+$(document).ready(function(){
+  'use strict';
+$(window).scroll(function(){
+  'use strict';
+  $("section").each(function(){
+  'use strict';
+    let bb = $(this).attr("id");
+    let hei = $(this).outherHeight()
+  })
+})
+})
