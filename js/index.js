@@ -17,7 +17,6 @@ $(document).ready(function () {
 });
 
 // Smooth scrolling
-
 $('a[href*="#"]')
   .not('[href="#"]')
   .not('[href="#0"]')
@@ -48,7 +47,6 @@ $('a[href*="#"]')
   });
 
   // Active menu item on click
-
   $(document).ready(function(){
     'use strict'
     $('.navbar-nav li a').click(function(){
@@ -67,7 +65,52 @@ $(window).scroll(function(){
   $("section").each(function(){
   'use strict';
     let bb = $(this).attr("id");
-    let hei = $(this).outherHeight()
-  })
-})
-})
+    let hei = $(this).outerHeight();
+    let grttop = $(this).offset().top -100;
+
+    if( $(window).scrollTop() > grttop && $(window).scrollTop() < grttop + hei) {
+      $(".navbar-nav li a[href='#" + bb +"']").parent().addClass("active");
+    }
+    else {
+      $(".navbar-nav li a[href='#" + bb +"']").parent().removeClass("active");
+    }
+  });
+});
+});
+
+// Add auto padding to header
+$(document).ready(function(){
+  'use strict';
+  setInterval(function(){
+    'use strict';
+    let windowHeight = $(window).height();
+    let containerHeight = $(".header-container").height();
+    let padTop = windowHeight - containerHeight;
+    
+    $(".header-container").css({
+      'padding-top': Math.round(padTop / 2) + 'px',
+      'padding-bottom': Math.round(padTop / 2) + 'px'
+    });
+  },10)
+});
+
+// Add bxslider to screens
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+    slideWidth: 292.5,
+    auto: true,
+    minSlides: 1,
+    maxSlides: 3,
+    slideMargin: 50
+  });
+});
+
+// Add counter
+$(document).ready(function(){
+  $('.counter-number').counterUp({
+    delay: 10,
+    time: 2000
+  });  
+});
+
+
