@@ -14,6 +14,7 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/jquery.bxslider.css" />
+    <link rel="stylesheet" href="./css/animate.css">
 
   </head>
   <body>
@@ -65,11 +66,11 @@
       <div class="row">
         <div class="col-md-8">
           <div class="header-text">
-            <h1>Виготовлення вин</h1>
+            <h1 class="animate__animated animate__backInDown">Виготовлення вин</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, voluptates.</p>
             <div class="header-btns">
-              <a href="#" class="btn btn-download">Download</a>
-              <a href="#" class="btn btn-tour">By tour</a>
+              <a href="#" class="btn btn-download animate__animated animate__fadeInLeft">Download</a>
+              <a href="#" class="btn btn-tour animate__animated animate__fadeInRight">By tour</a>
               <i class="fa fa-angle-down"></i>
             </div>
           </div>
@@ -100,12 +101,12 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <div class="about">
+          <div class="about animate__animated animate__backInLeft animate__delay-1s animate__duration-1s">
             <img src="./images/wine.png" alt="wine">
           </div>
         </div>
 
-        <div class="col-md-6">
+        <div class="col-md-6 animate__animated animate__backInRight animate__delay-2s animate__duration-2s">
           <div class="choose-us-title">
             <h2>Чому саме ми?</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, maiores doloremque. Facilis natus quasi necessitatibus, culpa in nesciunt quis, ut modi cupiditate harum beatae maxime ad ipsa. Facilis ipsa, culpa libero enim quia delectus, exercitationem expedita quo laborum vel mollitia! Voluptatem voluptatum ab dolor vel ipsum laborum eaque. Labore, ex.</p>
@@ -194,7 +195,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <div class="section-title">
+        <div class="section-title animate__animated animate__fadeIn">
           <h2>features</h2>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam iure tempora alias deleniti hic repudiandae earum nemo ratione, veritatis modi similique quaerat iusto molestias explicabo cupiditate aspernatur. Temporibus, maxime voluptatem.</p>
         </div>
@@ -206,48 +207,51 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4">
+        <div class="left-features animate__animated animate__fadeInLeft">
 
-        <div class="left-features-item">
-          <div class="left-features-item-icon">
-            <i class="fa fa-desktop"></i>
+          <div class="left-features-item ">
+            <div class="left-features-item-icon">
+              <i class="fa fa-desktop"></i>
+            </div>
+            <h3>Retina-redy</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, voluptate soluta delectus vel aut nemo consequuntur facilis esse veritatis eius!</p>
           </div>
-          <h3>Retina-redy</h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, voluptate soluta delectus vel aut nemo consequuntur facilis esse veritatis eius!</p>
+          
+          <div class="left-features-item">
+            <div class="left-features-item-icon">
+              <i class="fa fa-mobile"></i>
+            </div>
+            <h3>Mobile-redy</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, voluptate soluta delectus vel aut nemo consequuntur facilis esse veritatis eius!</p>
+          </div>
+          
+          <div class="left-features-item">
+            <div class="left-features-item-icon">
+              <i class="fa fa-eye"></i>
+            </div>
+            <h3>Easy-layout</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, voluptate soluta delectus vel aut nemo consequuntur facilis esse veritatis eius!</p>
+          </div>
         </div>
+      </div>
         
-        <div class="left-features-item">
-          <div class="left-features-item-icon">
-          <i class="fa fa-mobile"></i>
-        </div>
-        <h3>Mobile-redy</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, voluptate soluta delectus vel aut nemo consequuntur facilis esse veritatis eius!</p>
-      </div>
-      
-      <div class="left-features-item">
-        <div class="left-features-item-icon">
-          <i class="fa fa-eye"></i>
-        </div>
-        <h3>Easy-layout</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, voluptate soluta delectus vel aut nemo consequuntur facilis esse veritatis eius!</p>
-      </div>
-    </div>
-
     <div class="col-md-4">
-      <div class="features-wine">
+      <div class="features-wine  animate__animated animate__bounceIn">
         <img width="100%" src="./images/wine.png" alt="wine">
     </div>
     </div>
 
     <div class="col-md-4">
+      <div class="right-features animate__animated animate__fadeInRight">
 
-      <div class="right-features-item">
-        <div class="right-features-item-icon">
-          <i class="fa fa-eye"></i>
+        <div class="right-features-item">
+          <div class="right-features-item-icon">
+            <i class="fa fa-eye"></i>
         </div>
         <h3>Certificate solution</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere fugiat maxime enim sit odio reiciendis. Necessitatibus quibusdam culpa nihil est quaerat, numquam eius tempore quos non enim! Id, rem neque?</p>
       </div>
-
+      
       <div class="right-features-item">
         <div class="right-features-item-icon">
           <i class="fa fa-rss"></i>
@@ -255,7 +259,7 @@
         <h3>Constante feed</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere fugiat maxime enim sit odio reiciendis. Necessitatibus quibusdam culpa nihil est quaerat, numquam eius tempore quos non enim! Id, rem neque?</p>
       </div>
-
+      
       <div class="right-features-item">
         <div class="right-features-item-icon">
           <i class="fa fa-database"></i>
@@ -263,9 +267,10 @@
         <h3>Secure data</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere fugiat maxime enim sit odio reiciendis. Necessitatibus quibusdam culpa nihil est quaerat, numquam eius tempore quos non enim! Id, rem neque?</p>
       </div>
-
+      
     </div>
-
+    </div>
+    
   </div>
 </div>
 </div>
@@ -274,7 +279,7 @@
 
 <section class="purchase-now">
   <div class="container">
-    <div class="row">
+    <div class="row animate__animated animate__fadeInLeft">
       <div class="col-md-9 col-sm-12">
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia asperiores cum autem sint rerum hic similique delectus laudantium, nulla voluptatibus accusantium illo pariatur animi saepe eum, dolorem facilis amet voluptate.</p>
       </div>
@@ -294,10 +299,10 @@
           <h2>Screens</h2>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id temporibus ducimus exercitationem obcaecati tempora, cumque corrupti error, reprehenderit ipsam molestiae voluptatem, nam officia aperiam consequatur doloremque! Natus, ab. Veritatis, esse?</p>
         </div>
-        <div class="screen-slider">
+        <div class="screen-slider animate__animated animate__rollIn">
           <div class="container">
             <div class="row">
-              <div class="bxslider">
+              <div class="bxslider ">
                 <div class="item">
                   <img src="./images/Team-1.jpg" alt="screen-image">
                 </div>
@@ -372,7 +377,7 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-md-12 text-center">
+      <div class="col-md-12 text-center animate__animated animate__fadeInUp">
         <img width="80%" src="./images/wine.png" alt="wine">
       </div>
     </div>
@@ -383,7 +388,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <div class="aviliable-title">
+        <div class="aviliable-title animate__animated animate__fadeInLeft">
           <h2>Aviliable now</h2>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque assumenda recusandae similique error asperiores consequuntur corrupti quae obcaecati, ullam, cupiditate molestiae repellendus dolorem! Sit architecto id rem, omnis dolore dolor.</p>
         </div>
@@ -508,11 +513,16 @@
     ></script>
     <script src="./js/all.js" ></script>
 
-    <script src="./js/index.js"></script>
     <script src="./js/jquery.bxslider.js"></script>
-
+    
     <script src="./js/jquery.counterup.min.js"></script>
     <script src="./js/jquery.waypoints.min.js"></script>
+
+    <script src="./js/index.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+      </script>
 
   </body>
 </html>
