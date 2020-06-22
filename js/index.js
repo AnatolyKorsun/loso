@@ -113,9 +113,7 @@ $(document).ready(function(){
   });  
 });
 
-// // Add animation
-// $(document).ready(function(){
-//   'use strict';
-//   // init wow animation
-//   new WOW().init();
-// });
+
+
+           
+
