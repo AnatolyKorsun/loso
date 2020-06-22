@@ -1,0 +1,33 @@
+/* Small devices */
+@media only screen and ( max-width: 767px ){
+.navbar{
+    background-color: #fff;
+    border-color: #e6e6e6;
+}
+}
+
+/* Small devices and Tablets */
+@media only screen and ( max-width: 768px ){
+    .header-img{
+        display: none;
+    }
+
+    .header-text{
+        text-align: center;
+    }
+    .nav-item,
+    .aviliable-title
+    {
+        text-align: center;
+    }
+}
+
+/* Medium devices and Desktop */
+@media only screen and ( min-width: 992px ){
+    
+}
+
+/* Large devices and Wide Screen */
+@media only screen and ( max-width: 767px ){
+    
+}

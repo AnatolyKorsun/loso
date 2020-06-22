@@ -18,27 +18,30 @@ a{
 }
 
 .logo {
-  padding-bottom: 50px;
+  padding-bottom: 3.125rem;
 }
 
+.navbar-toggler{
+  border:1px solid #000000;
+}
 .header-text h1 {
   /* color:#fff; */
-  font-size: 35px;
+  font-size: 2.188rem;
   font-weight: 600;
-  padding-top: 30px;
+  padding-top: 1.875rem;
   font-family: "Amatic SC", cursive;
   text-transform: uppercase;
 }
 
 .header-text p {
-  font-size: 17px;
-  line-height: 28px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   font-family: "Architects Daughter", cursive;
 }
 
 .header-btns {
-  margin-top: 90px;
-  margin-bottom: 50px;
+  margin-top: 5.625rem;
+  margin-bottom: 3.125rem;
 }
 .btn-download,
 .btn-download:focus,
@@ -47,10 +50,10 @@ a{
   background: transparent;
   border-color: #123cf3;
   color: #123cf3;
-  padding-top: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  font-size: 19px;
+  padding-top: 0.625rem;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
+  font-size: 1.185rem;
   text-transform: uppercase;
 }
 
@@ -81,8 +84,7 @@ a{
 }
 .navbar-default >.active>a{
   color:#123cf3;
-  font-size: 17px;
-/* color: #123cf3 !important; */
+  font-size: 1.125rem;
 
 }
 /*------------------------- about us ------------------*/
@@ -365,6 +367,9 @@ a{
 
 /* -------------------- Download-now -----*/
 
+.download-now{
+  padding-bottom: 50px;
+}
 .download-now img {
   width: 50%;
 }
