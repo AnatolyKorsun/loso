@@ -5,6 +5,11 @@ a{
   color:black;
 }
 /* ------------------------ Header -------------------------------------- */
+.navbar-brand img{
+  width: 50px;
+  height: 50px;
+}
+
 .header {
   background-image: url(../images/grape.jpg);
   background-attachment: fixed;
@@ -20,6 +25,10 @@ a{
 
 .logo {
   padding-bottom: 3.125rem;
+}
+.logo img{
+  width: 50px;
+  height: 50px;
 }
 
 .navbar-toggler{
@@ -102,7 +111,7 @@ a{
 .section-title h2 {
   font-family: "Amatic SC", cursive;
   position: relative;
-  color: 333;
+  color: #333;
   font-size: 60px;
   text-align: center;
   margin-bottom: 50px;
@@ -209,6 +218,7 @@ a{
 }
 .carousel-item img {
   border-radius: 50px;
+  max-width: 40%;
 }
 
 .testimonial-caption {
@@ -283,6 +293,9 @@ a{
   position: sticky;
   width: 90%;
   top: 50px;
+}
+.features-wine img{
+max-width: 100%;
 }
 
 .right-features-item {
