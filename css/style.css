@@ -4,7 +4,7 @@
 a{
   color:black;
 }
-/* ------------------------ Header -------------------- */
+/* ------------------------ Header -------------------------------------- */
 .header {
   background-image: url(../images/grape.jpg);
   background-attachment: fixed;
@@ -14,7 +14,8 @@ a{
 }
 
 .header-img img {
-  width: 90%;
+  height: 80vh;
+  padding-bottom: 30px;
 }
 
 .logo {
@@ -25,8 +26,7 @@ a{
   border:1px solid #000000;
 }
 .header-text h1 {
-  /* color:#fff; */
-  font-size: 2.188rem;
+  font-size: 4.188rem;
   font-weight: 600;
   padding-top: 1.875rem;
   font-family: "Amatic SC", cursive;
@@ -34,7 +34,7 @@ a{
 }
 
 .header-text p {
-  font-size: 1.125rem;
+  font-size: 1.525rem;
   line-height: 1.75rem;
   font-family: "Architects Daughter", cursive;
 }
@@ -87,7 +87,7 @@ a{
   font-size: 1.125rem;
 
 }
-/*------------------------- about us ------------------*/
+/*------------------------- about us --------------------------------------*/
 
 .main-content {
   background-image: url(../images/background.jpg);
@@ -182,7 +182,13 @@ a{
   font-family: "Amatic SC", cursive;
 }
 
-/*--------------------- Testimonial ------*/
+.choose-us-item p{
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Architects Daughter", cursive;
+}
+
+/*--------------------- Testimonial --------------------------------------*/
 
 .testimonial {
   background-image: url(../images/wine-barrel.jpg);
@@ -202,9 +208,7 @@ a{
   bottom: -60px;
 }
 .carousel-item img {
-  /* border: 5px solid rgb(61, 61, 255); */
   border-radius: 50px;
-  /* padding: 5px; */
 }
 
 .testimonial-caption {
@@ -232,7 +236,7 @@ a{
   font-family: "Architects Daughter", cursive;
 }
 
-/*----------------------- Features --------*/
+/*----------------------- Features ----------------------------------------*/
 
 .features-inner-wrapper {
   padding-top: 30px;
@@ -261,7 +265,7 @@ a{
 .left-features-item h3,
 .right-features-item h3 {
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 35px;
   margin-bottom: 21px;
   color: #333;
   font-family: "Amatic SC", cursive;
@@ -270,8 +274,8 @@ a{
 .left-features-item p,
 .right-features-item p {
   color: #333;
-  font-size: 16px;
-  line-height: 21px;
+  font-size: 20px;
+  line-height: 26px;
   font-family: "Architects Daughter", cursive;
 }
 
@@ -300,7 +304,12 @@ a{
   text-align: center;
 }
 
-/* ----------------- purchase-now  ------*/
+.features-wine img{
+  padding-bottom: 30px;
+  /* max-height: 900px; */
+}
+
+/* ----------------- purchase-now  ----------------------------------------*/
 
 .purchase-now {
   background-image: url(../images/tastimonial.jpg);
@@ -313,9 +322,11 @@ a{
 
 .purchase-now p {
   color: #fdfdfd;
-  font-size: 20px;
-}
+  font-size: 25px;
+  font-family: "Architects Daughter", cursive;
 
+}
+.btn-purchase-now,
 .btn-purchase-now:active,
 .btn-purchase-now:focus,
 .btn-purchase-now:visited {
@@ -327,9 +338,12 @@ a{
   text-align: center;
 }
 
-/* -------------------- Screens -------- */
+.btn-purchase-now:hover{
+  background-color: #ffffff;
+  color:#129cf3;
+}
 
-/* --------------------- Counter -------- */
+/* --------------------- Counter ------------------------------------------ */
 .counter {
   background-image: url(../images/pink-wine.jpg);
   background-repeat: no-repeat;
@@ -362,34 +376,37 @@ a{
   font-family: "Architects Daughter", cursive;
 }
 
-/* -------------------- Download-now -----*/
+/* -------------------- Wine-food ------------------------------------------*/
 
-.download-now{
+.wine-food{
   padding-bottom: 50px;
 }
-.download-now img {
+.wine-food img {
   width: 50%;
 }
 
-.aviliable-on {
+.our-location {
   background-color: #1a1a1a;
   margin-top: -28px;
   position: relative;
 }
 
-.aviliable-title {
+.our-location-title {
   padding-top: 75px;
 }
 
-.aviliable-title h2 {
+.our-location-title h2 {
   color: #fff;
   font-size: 45px;
+  font-weight: bold;
   font-family: "Amatic SC", cursive;
 }
 
-.aviliable-title p {
+.our-location-title p {
   color: #858585;
   font-family: "Architects Daughter", cursive;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .no-padding {
@@ -397,7 +414,7 @@ a{
   padding-right: 0;
 }
 
-.aviliable-on-item {
+.our-location-item {
   padding-top: 100px;
   text-align: center;
   border-left: 1px solid #0f1217;
@@ -406,16 +423,16 @@ a{
   position: relative;
 }
 
-.aviliable-on-item:hover {
+.our-location-item:hover {
   background-color: #121212;
 }
 
-.aviliable-on-item:hover > .aviliable-icon {
+.our-location-item:hover > .our-location-icon {
   opacity: 0;
   transition: all 1s;
 }
 
-.aviliable-icon {
+.our-location-icon {
   color: #123cf3;
   text-align: center;
   opacity: 1;
@@ -426,7 +443,7 @@ a:hover {
   text-decoration: none;
 }
 
-.aviliable-on-inner {
+.our-location-inner {
   position: relative;
   width: 100%;
   opacity: 0;
@@ -434,20 +451,20 @@ a:hover {
   bottom: 40px;
 }
 
-.aviliable-on-inner h2 {
+.our-location-inner h2 {
   text-align: center;
   color: #123cd3;
   font-size: 25px;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 700;
 }
 
-.aviliable-on-item:hover > .aviliable-on-inner {
+.our-location-item:hover > .our-location-inner {
   opacity: 1;
   transition: all 1s;
 }
 
-/*------------------------------ Contact us ------------*/
+/*------------------------------ Contact us --------------------------------*/
 
 .contact-us-form .form-control {
   display: block;
@@ -525,7 +542,7 @@ a:hover {
 .social-icons ul li a:hover {
   background-color: #129cf3;
   border: 1px solid #129cf3;
-  color: #9d9d9d;
+  color: #ffffff;
   transition: all 1s;
 }
 
@@ -533,7 +550,7 @@ a:hover {
   font-size: 26px;
 }
 
-/*--------------------------- Footer  ------------------*/
+/*--------------------------- Footer  -------------------------------------*/
 .footer {
   background-color: #1a1a1a;
   padding-bottom: 35px;
